@@ -1,0 +1,74 @@
+
+body {
+
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-image: linear-gradient(to right, rgb(12, 170, 223), silver);
+    text-align: center;
+    color: black;
+    padding: 60px;
+
+}
+
+
+nav {
+
+    background-color: black;
+    margin: auto;
+    width: fit-content;
+
+}
+
+nav a {
+
+    display: inline-block;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+
+    background-color: white;
+    color: black;
+}
+
+
+main {
+
+    background-color: white;
+    width: 100%;
+    
+    text-align: center;
+    padding: 60px 0;
+   
+}
+
+main p {
+
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+main h1 {
+
+    margin: auto;
+}
+
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
