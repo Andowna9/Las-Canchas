@@ -25,7 +25,7 @@ a, a:hover {
         margin-right: auto;
     }
 
-    .member p {
+    .member-info {
 
         margin-left: auto; 
         margin-right: auto;
@@ -37,6 +37,7 @@ a, a:hover {
         width: 50%;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 40px;
     }
     
 }
@@ -53,24 +54,50 @@ a, a:hover {
         align-items: center;
         justify-content: center;
     }
-
-    h2 {
-
-        text-align: left;
-    }
     
 }
 
+/* Member Information styles */
 
-.member p {
+.member-info {
 
+    /* border: 1px solid black; */
     width: fit-content;
-    border: 1px solid black;
     padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.member-info p {
+
     line-height: 1.5;
+    font-size: 20px;
+    margin: 0;
     
 }
 
+.member-info hr {
+
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: black;
+}
+
+.social-media-list {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.social-media-list li {
+
+    float: left;
+    margin-right: 5px;
+}
 
 
 h2::before {
@@ -92,4 +119,12 @@ h2::after {
 h2 {
 
     text-align: center;
+}
+
+/* Style for svg social media icons */
+
+.member i {
+
+    font-size: 24px;
+    margin-right: 5px;
 }
