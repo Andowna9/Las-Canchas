@@ -6,6 +6,8 @@ body {
     padding: 0;
 }
 
+/* HEADER + NAVIGATION BAR */
+
 header {
 
     background-image: linear-gradient(to right, rgb(12, 170, 223), silver);
@@ -15,29 +17,46 @@ header {
 
 }
 
-
 nav {
 
-    background-color: black;
-    margin: auto;
+    overflow: hidden;
     width: fit-content;
+    margin: auto;
 
 }
 
-nav a {
 
-    display: inline-block;
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+
+    background-color: black;
+    float: left;
+}
+
+nav ul li a {
+
+    display: block;
     padding: 15px 15px;
     text-decoration: none;
     color: white;
 }
 
-nav a:hover {
+nav ul li a:hover {
 
     background-color: white;
     color: black;
 }
 
+
+/* CONTENT */
 
 main {
 
@@ -45,7 +64,7 @@ main {
     width: 100%;
     
     text-align: center;
-    padding: 60px 0;
+    padding: 50px 0;
    
 }
 
@@ -57,11 +76,26 @@ main p {
     text-align: justify;
 }
 
-main h1 {
+main h2 {
 
     margin: auto;
+    padding: 20px;
 }
 
+
+
+main section {
+
+    margin-bottom: 20px;
+}
+
+#reader-attention-text {
+
+    text-align: center;
+    padding: 32px;
+}
+
+/* FOOTER */
 
 footer {
 
@@ -71,4 +105,15 @@ footer {
     height: 100px;
     background-color: black;
     color: white;
+}
+
+/* Mobile media queries */
+
+@media only screen and (max-width: 768px) {
+
+    main p {
+
+        width: 75%;
+    }
+    
 }
