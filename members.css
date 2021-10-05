@@ -20,7 +20,7 @@ a, a:hover {
     gap: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 /* Mobile - Responsive flexbox layout */
@@ -29,18 +29,20 @@ a, a:hover {
 
     .member {
 
-        flex-direction: column;
+        flex-direction: column !important;
     }
     
 }
-    
 
+div:nth-child(4n + 2) {
+
+    flex-direction: row-reverse;
+}
 
 /* Member Information styles */
 
 .member-info {
 
-    /* border: 1px solid black; */
     width: fit-content;
     padding: 15px;
     margin-top: 10px;
@@ -98,6 +100,8 @@ h2::after {
 h2 {
 
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 /* Style for svg social media icons */
