@@ -38,9 +38,11 @@
     justify-content: space-evenly;
 }
 
-.member q {
+.member-phrase {
 
     font-size: larger;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .member:nth-of-type(even) {

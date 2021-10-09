@@ -103,3 +103,50 @@ footer {
 }
 
 /* ******************** */
+
+/* UP BUTTON */
+
+#scroll-to-top-btn {
+
+    border: none;
+
+    display: none;
+
+    font-weight: bold;
+
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 25%;
+
+    background-image: linear-gradient(180deg, #28B463, #F4D03F);
+}
+
+#scroll-to-top-btn:hover {
+
+    cursor: pointer;
+    
+}
+
+#scroll-to-top-btn .up-arrow {
+
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+
+  }
+
+  @media only screen and (max-width: 768px) {
+
+        #scroll-to-top-btn {
+
+            right: 35px;
+        }
+  }
+  
