@@ -43,10 +43,12 @@
     font-size: larger;
 }
 
-div:nth-child(4n + 2) {
+.member:nth-of-type(even) {
 
     flex-direction: row-reverse;
+  
 }
+
 
 /* ******************** */
 
