@@ -1,0 +1,63 @@
+
+#home-a {
+
+    text-decoration: underline;
+}
+
+/* MAIN CONTENT */
+
+main {
+
+    background-color: white;
+    width: 100%;
+    
+    text-align: center;
+    padding: 50px 0;
+   
+}
+
+main h2 {
+
+    font-family: "Ubuntu", sans-serif;
+    font-size: 28px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+main p {
+
+    font-family: "Indie Flower", serif;
+    font-size: 24px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+main section {
+
+    margin-bottom: 20px;
+}
+
+#reader-attention-text {
+
+    text-align: center;
+    padding: 32px;
+}
+
+/* ******************** */
+
+
+/* Mobile media queries */
+
+@media only screen and (max-width: 768px) {
+
+    main p {
+
+        width: 75%;
+    }
+    
+}
+
+/* ******************** */

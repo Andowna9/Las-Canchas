@@ -1,10 +1,20 @@
 
+/* FONTS FROM GOOGLE API */
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu|Indie Flower|Rampart One");
+
+
+/* BODY RESET TO MAKE USE OF FULL WIDTH */
+
 body {
 
     background-color: white;
     margin: 0;
     padding: 0;
 }
+
+/* ******************** */
+
 
 /* HEADER + NAVIGATION BAR */
 
@@ -17,12 +27,33 @@ header {
 
 }
 
+header h2 {
+
+    padding: 5px;
+    margin: 20px;
+    font-size: 15px;
+    font-family: "Ubuntu", serif;
+    position: absolute;
+    right: 10%;
+
+    background: linear-gradient(to right, red,brown, green);
+	-webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 nav {
 
     overflow: hidden;
     width: fit-content;
     margin: auto;
 
+}
+
+h1 {
+
+    font-family: "Rampart One", sans-serif;
+    font-size: 50px;
 }
 
 
@@ -43,6 +74,7 @@ nav ul li {
 
 nav ul li a {
 
+    font-family: "Ubuntu", serif;
     display: block;
     padding: 15px 15px;
     text-decoration: none;
@@ -55,50 +87,13 @@ nav ul li a:hover {
     color: black;
 }
 
-
-/* CONTENT */
-
-main {
-
-    background-color: white;
-    width: 100%;
-    
-    text-align: center;
-    padding: 50px 0;
-   
-}
-
-main p {
-
-    width: 50%;
-    margin: auto;
-    margin-top: 10px;
-    text-align: justify;
-}
-
-main h2 {
-
-    margin: auto;
-    padding: 20px;
-}
-
-
-
-main section {
-
-    margin-bottom: 20px;
-}
-
-#reader-attention-text {
-
-    text-align: center;
-    padding: 32px;
-}
+/* ******************** */
 
 /* FOOTER */
 
 footer {
 
+    font-family: "Ubuntu", serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,13 +102,4 @@ footer {
     color: white;
 }
 
-/* Mobile media queries */
-
-@media only screen and (max-width: 768px) {
-
-    main p {
-
-        width: 75%;
-    }
-    
-}
+/* ******************** */
