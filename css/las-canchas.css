@@ -68,23 +68,27 @@ nav ul {
 
 nav ul li {
 
-    background-color: black;
     float: left;
+
 }
 
 nav ul li a {
 
     font-family: "Ubuntu", serif;
     display: block;
-    padding: 15px 15px;
+    margin: 15px 15px;
+    padding: 10px 10px;
     text-decoration: none;
     color: white;
+    background-color: black;
+    border-radius: 5px;
 }
 
 nav ul li a:hover {
 
-    background-color: white;
     color: black;
+    background-color: white;
+
 }
 
 /* ******************** */
@@ -115,7 +119,7 @@ footer {
     font-weight: bold;
 
     position: fixed;
-    bottom: 20px;
+    bottom: 120px;
     right: 100px;
     width: 50px;
     height: 50px;
@@ -142,11 +146,22 @@ footer {
 
   }
 
+  /* MOBILE RESPONSIVE */
+
   @media only screen and (max-width: 768px) {
 
         #scroll-to-top-btn {
 
             right: 35px;
         }
+
+        nav ul li {
+
+            float: none;
+            width: 100%;
+        }
+
+
+    
   }
   
