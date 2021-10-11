@@ -23,23 +23,42 @@ header {
     background-image: linear-gradient(to right, rgb(12, 170, 223), silver);
     text-align: center;
     color: black;
-    padding: 10px 40px 40px 40px;
+    padding: 5px 40px 5px 40px;
 
 }
 
-header h2 {
+/* Container for header tags */
+
+#tags-list {
+
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    
+
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+#tags-list li {
 
     padding: 5px;
     font-size: 15px;
+    font-weight: bold;
     font-family: "Ubuntu", serif;
-    position: absolute;
     right: 10%;
-    margin: 0;
+    margin: 6px 0;
 
-    background: linear-gradient(to right, red,brown, green);
-	-webkit-background-clip: text;
+	background: linear-gradient(to right, red, purple);
     background-clip: text;
+	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+#tags-list li::before {
+
+    content: "# ";
 }
 
 nav {
@@ -165,6 +184,10 @@ footer {
             font-size: 40px;
         }
 
+        #tags-list {
+
+            justify-content: center;
+        }
 
     
   }
