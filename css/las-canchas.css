@@ -23,18 +23,18 @@ header {
     background-image: linear-gradient(to right, rgb(12, 170, 223), silver);
     text-align: center;
     color: black;
-    padding: 60px;
+    padding: 10px 40px 40px 40px;
 
 }
 
 header h2 {
 
     padding: 5px;
-    margin: 20px;
     font-size: 15px;
     font-family: "Ubuntu", serif;
     position: absolute;
     right: 10%;
+    margin: 0;
 
     background: linear-gradient(to right, red,brown, green);
 	-webkit-background-clip: text;
@@ -50,12 +50,12 @@ nav {
 
 }
 
-h1 {
+header h1 {
 
     font-family: "Rampart One", sans-serif;
     font-size: 50px;
+    margin: 25px;
 }
-
 
 
 nav ul {
@@ -158,7 +158,11 @@ footer {
         nav ul li {
 
             float: none;
-            width: 100%;
+        }
+
+        header h1 {
+
+            font-size: 40px;
         }
 
 

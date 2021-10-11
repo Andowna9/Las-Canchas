@@ -2,3 +2,65 @@
 
     text-decoration: underline;
 }
+
+/* GRID OF IMAGES */
+
+.image-grid {
+
+    width: 60%;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.row, .column {
+
+    box-sizing: border-box;
+}
+
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* 2 equal columns by default */
+
+.column {
+
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+    
+
+}
+
+.column img {
+
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* ******************** */
+
+/* MOBILE RESPONSIVE - 1 column */
+
+@media only screen and (max-width: 768px) {
+
+    .image-grid {
+
+        width: 90%;
+    }
+
+    .column {
+
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+}
+
+/* ******************** */

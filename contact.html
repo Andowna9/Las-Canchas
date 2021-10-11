@@ -10,10 +10,14 @@
         <link rel="icon" href="logos/ball.png">
         <link rel="stylesheet" href="css/las-canchas.css">
         <link rel="stylesheet" href="css/contact.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="scripts/up-button.js"></script>
 
     </head>
 
     <body>
+
+        <button id="scroll-to-top-btn"> <i class="up-arrow"></i> </button>
 
         <header>
 
@@ -35,6 +39,40 @@
             <h2># Fútbol a pie de calle</h2>
 
         </header>
+
+        <main>
+
+            
+            <div class="form-container">
+
+                <form action="" method="post">
+
+                    <fieldset>
+
+                        <legend>Feedback</legend>
+
+                        <label for="name">Nombre:</label>
+                        <input id="name" type="text" name="name">
+
+                        <label for="email">Correo electrónico:</label>
+                        <input id="email" type="email" name="email">
+
+                        <label for="subject">Lo mejor:</label>
+                        <textarea id="subject" name="subject"></textarea>
+
+                        <label for="subject">Aspectos mejorables:</label>
+                        <textarea id="subject" name="subject"></textarea>
+
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Reiniciar">
+
+                    </fieldset>
+
+                </form>
+
+            </div>
+
+        </main>
 
         <footer>
 

@@ -1,8 +1,6 @@
 
 $(document).ready(function() {
 
-    console.log("Ready");
-
     var button = $("#scroll-to-top-btn");
 
     button.click(function() {

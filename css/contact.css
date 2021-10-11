@@ -2,3 +2,90 @@
 
     text-decoration: underline;
 }
+
+.form-container {
+
+    padding: 50px 120px;
+    margin: 10px 0;
+
+}
+
+/* INPUT COMPONENTS */
+
+input[type=text], input[type=email], textarea {
+
+    width: 100%;
+    border: 1px solid grey; 
+    border-radius: 4px; 
+    padding: 8px;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    box-sizing: border-box;
+
+}
+
+input[type=text], input[type=email]:focus {
+
+    outline-color: rgb(12, 170, 223);
+}
+
+textarea {
+
+    height: 80px;
+    outline-color: rgb(12, 170, 223);
+    resize: none; /* Resize capabilities disabled */
+}
+
+input[type=submit], input[type=reset] {
+
+    border-radius: 5px;
+    border-color: rgb(12, 170, 223);
+    padding: 6px;
+    margin-left: 5px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+/* ******************** */
+
+/* FORM FIELDSET + LEGEND */
+
+fieldset {
+
+    box-shadow: 0px 3px 15px -1px black;
+    border-radius: 10px;
+    border-color: rgb(12, 170, 223);
+    padding: 20px;
+}
+
+legend {
+
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid rgb(12, 170, 223);
+    color: rgb(12, 170, 223);
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+/* ******************** */
+
+/* MOBILE RESPONSIVE */
+
+@media only screen and (max-width: 768px) {
+
+    .form-container {
+
+        padding: 30px;
+    }
+
+}
+
+
+/* ******************** */
