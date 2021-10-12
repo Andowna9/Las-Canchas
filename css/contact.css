@@ -6,7 +6,8 @@
 .form-container {
 
     padding: 50px 120px;
-    margin: 10px 0;
+    margin: auto;
+    max-width: 750px;
 
 }
 
@@ -127,6 +128,7 @@ legend {
     .form-container {
 
         padding: 30px;
+
     }
 
     .input-col, .label-col {
