@@ -1,7 +1,7 @@
 
 /* FONTS FROM GOOGLE API */
 
-@import url("https://fonts.googleapis.com/css?family=Ubuntu|Indie Flower|Rampart One");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu|Indie Flower|Rampart One|Poppins");
 
 
 /* BODY RESET TO MAKE USE OF FULL WIDTH */
@@ -24,6 +24,14 @@ a, a:hover {
 
 /* ******************** */
 
+/* Default fonts */
+
+h2 {
+
+    font-family: "Poppins", sans-serif;
+}
+
+/* ******************** */
 
 /* HEADER + NAVIGATION BAR */
 

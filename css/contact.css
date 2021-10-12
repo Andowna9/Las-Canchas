@@ -9,6 +9,8 @@
     margin: auto;
     max-width: 750px;
 
+    font-family: "Ubuntu", serif;
+
 }
 
 /* INPUT COMPONENTS */
@@ -45,6 +47,8 @@ textarea {
     margin-left: 5px;
     color: black;
     background-color: white;
+
+    font-family: "Ubuntu", serif;
 
 }
 
