@@ -36,7 +36,7 @@ textarea {
     resize: none; /* Resize capabilities disabled */
 }
 
-input[type=submit], input[type=reset] {
+.form-button {
 
     border-radius: 5px;
     border-color: rgb(12, 170, 223);
@@ -47,10 +47,51 @@ input[type=submit], input[type=reset] {
 
 }
 
-input[type=submit]:hover, input[type=reset]:hover {
+.form-button:hover {
 
-    background-color: aquamarine;
+    color: white;
+    background-color: rgb(12, 170, 223);
     cursor: pointer;
+}
+
+label {
+
+   display: inline-block;
+   padding: 12px 12px 12px 0;
+   text-align: center;
+}
+
+
+.label-col {
+
+    float: left;
+    width: 15%;
+    
+}
+
+.input-col {
+
+    float: left;
+    width: 85%;
+
+}
+
+
+/* Float cleared after each row (just in case) */
+
+.field-row:after {
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.button-row {
+
+    margin: auto;
+    width: 80%;
+    text-align: center;
 }
 
 /* ******************** */
@@ -88,7 +129,12 @@ legend {
         padding: 30px;
     }
 
-}
+    .input-col, .label-col {
 
+        width: 100%;
+
+    }
+
+}
 
 /* ******************** */

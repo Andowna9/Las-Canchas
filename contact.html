@@ -54,23 +54,63 @@
 
                     <fieldset>
 
-                        <legend>Feedback</legend>
+                        <legend>Formulario</legend>
 
-                        <label for="name">Nombre:</label>
-                        <input id="name" type="text" name="name">
+                        <div class="field-row">
 
-                        <label for="email">Correo electrónico:</label>
-                        <input id="email" type="email" name="email">
+                            <div class="label-col">
+                                <label for="subject">Asunto:</label>
+                            </div>
 
-                        <label for="subject">Lo mejor:</label>
-                        <textarea id="subject" name="subject"></textarea>
+                            <div class="input-col">
+                                <input id="subject" type="text" name="subject" required>
+                            </div>
 
-                        <label for="subject">Aspectos mejorables:</label>
-                        <textarea id="subject" name="subject"></textarea>
+                        </div>
 
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Reiniciar">
+                        <div class="field-row">
 
+                            <div class="label-col">
+                                <label for="name">Nombre:</label>
+                            </div>
+
+                            <div class="input-col">
+                                <input id="name" type="text" name="name" required>
+                            </div>
+
+                        </div>
+
+                        <div class="field-row">
+
+                            <div class="label-col">
+                                <label for="email">Correo:</label>
+                            </div>
+
+                            <div class="input-col">
+                                <input id="email" type="email" name="email" required>
+                            </div>
+
+                        </div>
+
+                        <div class="field-row">
+
+                            <div class="label-col">
+                                <label for="message">Mensaje:</label>
+                            </div>
+
+                            <div class="input-col">
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+
+                        </div>
+
+                        <div class="button-row">
+
+                            <button type="submit" class="form-button">Enviar</button>
+                            <button type="reset" class="form-button">Reiniciar</button>
+
+                        </div>
+                        
                     </fieldset>
 
                 </form>
