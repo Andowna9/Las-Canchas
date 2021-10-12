@@ -39,9 +39,38 @@
 
 .column img {
 
-    margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+}
+
+/* Image container for image and overlay (text on top of image) */
+
+.image-container {
+
+    position: relative;
+    margin-top: 8px;
+}
+
+.overlay {
+
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    opacity: 0;
+
+    transition: 0.5s ease;
+    backdrop-filter: blur(2px);
+
+}
+
+.image-container:hover .overlay {
+
+    opacity: 1;
 }
 
 /* ******************** */
