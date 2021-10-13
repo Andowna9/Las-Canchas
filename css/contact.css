@@ -38,8 +38,8 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 
     outline-style: solid;
     outline-width: 2px;
-    outline-color: rgb(12, 170, 223);
-    outline-offset: -1px;
+    outline-color: var(--main-color);
+    outline-offset: -2px;
     border-color: transparent;
 }
 
@@ -49,7 +49,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 .form-button {
 
     border-radius: 5px;
-    border-color: rgb(12, 170, 223);
+    border-color: var(--main-color);
     padding: 6px;
     margin-left: 5px;
     color: black;
@@ -62,7 +62,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 .form-button:hover {
 
     color: white;
-    background-color: rgb(12, 170, 223);
+    background-color: var(--main-color);
     cursor: pointer;
 }
 
@@ -114,7 +114,7 @@ fieldset {
 
     box-shadow: 0px 3px 15px -1px black;
     border-radius: 10px;
-    border-color: rgb(12, 170, 223);
+    border-color: var(--main-color);
     padding: 20px;
 }
 
@@ -122,8 +122,8 @@ legend {
 
     font-weight: bold;
     text-transform: uppercase;
-    border: 2px solid rgb(12, 170, 223);
-    color: rgb(12, 170, 223);
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
     background-color: white;
     border-radius: 5px;
     padding: 5px;

@@ -3,6 +3,12 @@
 
 @import url("https://fonts.googleapis.com/css?family=Ubuntu|Indie Flower|Rampart One|Poppins");
 
+/* Css variables */
+
+:root {
+
+    --main-color: rgb(12, 170, 223);
+}
 
 /* BODY RESET TO MAKE USE OF FULL WIDTH */
 
@@ -37,7 +43,7 @@ h2 {
 
 header {
 
-    background-image: linear-gradient(to right, rgb(12, 170, 223), silver);
+    background-image: linear-gradient(to right, var(--main-color), silver);
     text-align: center;
     color: black;
     padding: 5px 40px 5px 40px;
