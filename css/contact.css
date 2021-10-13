@@ -17,27 +17,34 @@
 
 input[type=text], input[type=email], textarea {
 
+    box-sizing: border-box;
     width: 100%;
     border: 1px solid grey; 
     border-radius: 4px; 
     padding: 8px;
     margin-top: 6px; 
     margin-bottom: 16px; 
-    box-sizing: border-box;
 
 }
 
-input[type=text]:focus, input[type=email]:focus {
-
-    outline-color: rgb(12, 170, 223);
-}
-
-textarea {
+ textarea {
 
     height: 80px;
-    outline-color: rgb(12, 170, 223);
     resize: none; /* Resize capabilities disabled */
 }
+
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: rgb(12, 170, 223);
+    outline-offset: -1px;
+    border-color: transparent;
+}
+
+
+
 
 .form-button {
 
@@ -139,6 +146,11 @@ legend {
 
         width: 100%;
 
+    }
+
+    label {
+
+        padding: 5px 0;
     }
 
 }

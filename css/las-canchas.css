@@ -82,6 +82,7 @@ nav {
 
     overflow: hidden;
     width: fit-content;
+    width: -moz-fit-content;
     margin: auto;
 
 }
