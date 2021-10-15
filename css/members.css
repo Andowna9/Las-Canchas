@@ -88,9 +88,9 @@
 
 .member-info p {
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Handlee, sans-serif;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 24px;
     margin: 0;
     
 }
@@ -139,6 +139,15 @@
     .member {
 
         flex-direction: column !important;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .member-info p {
+
+        font-size: 18px;
     }
     
 }
