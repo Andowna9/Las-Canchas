@@ -1,7 +1,7 @@
 
 /* FONTS FROM GOOGLE API */
 
-@import url("https://fonts.googleapis.com/css?family=Ubuntu|Handlee|Rampart One|Poppins");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu|Handlee|Rampart One|Poppins|Dancing Script");
 
 /* Css variables */
 
@@ -14,9 +14,7 @@
 /* BODY RESET TO MAKE USE OF FULL WIDTH */
 
 body {
-
-    -webkit-font-smoothing: antialiased;
-
+    
     background-color: white;
     margin: 0;
     padding: 0;
