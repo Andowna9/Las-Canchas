@@ -11,15 +11,11 @@
 
 }
 
-b, strong {
-
-    font-weight: bolder;
-    
-}
-
 /* BODY RESET TO MAKE USE OF FULL WIDTH */
 
 body {
+
+    -webkit-font-smoothing: antialiased;
 
     background-color: white;
     margin: 0;
