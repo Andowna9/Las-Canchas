@@ -8,6 +8,13 @@
 :root {
 
     --main-color: rgb(12, 170, 223);
+
+}
+
+b, strong {
+
+    font-weight: bolder;
+    
 }
 
 /* BODY RESET TO MAKE USE OF FULL WIDTH */
