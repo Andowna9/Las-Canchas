@@ -10,6 +10,11 @@
 
 }
 
+b {
+
+    font-weight: bolder;
+}
+
 /* BODY RESET TO MAKE USE OF FULL WIDTH */
 
 body {
