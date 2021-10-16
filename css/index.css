@@ -40,9 +40,10 @@ main section {
 }
 
 #reader-attention-text {
-
+    box-sizing: border-box;
     text-align: center;
     padding: 32px;
+    
 }
 
 /* ******************** */
